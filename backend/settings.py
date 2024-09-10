@@ -46,10 +46,13 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework_simplejwt',
     'rest_framework_simplejwt.token_blacklist',  # Blacklisting for logout
+    'drf_yasg', #Api auto doc
+
 
     'users',
     'products',
     'cart',
+    'order',
     
 
 
