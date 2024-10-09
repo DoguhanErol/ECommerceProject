@@ -10,7 +10,7 @@ from .serializers import ProductSerializer, CategorySerializer
 
 # Pagination Class
 class ProductPagination(PageNumberPagination):
-    page_size = 18
+    page_size = 2
 
 # Filter Class
 class ProductFilter(filters.FilterSet):
